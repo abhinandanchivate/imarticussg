@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T07:17:53.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="ceV6Y4BzCUhT_KjV1x4v" version="15.9.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-13T07:30:36.380Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="mXISSBTLVDoBSnETko45" version="15.9.4" type="github" pages="3">
   <diagram id="44bqtlpU4LyTsHwCAsyh" name="basic execution">
     <mxGraphModel dx="1422" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -180,8 +180,8 @@
         <mxCell id="XuBrwc32Oz9Cc0o0zx1T-2" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="S59G7o2Gz0paoqSSLFve-1">
           <mxGeometry x="1010" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XuBrwc32Oz9Cc0o0zx1T-4" value="interface : contract : whenever we need the contract , we will inject the contracts. how by implementing interface" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="S59G7o2Gz0paoqSSLFve-1">
-          <mxGeometry x="390" y="780" width="300" height="80" as="geometry" />
+        <mxCell id="XuBrwc32Oz9Cc0o0zx1T-4" value="interface : contract : whenever we need the contract , we will inject the contracts. how by implementing interface" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="S59G7o2Gz0paoqSSLFve-1">
+          <mxGeometry x="390" y="780" width="300" height="140" as="geometry" />
         </mxCell>
         <mxCell id="3exO_2V48oAmcC_ycoTt-0" value="ORacle" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="S59G7o2Gz0paoqSSLFve-1">
           <mxGeometry x="1010" y="510" width="120" height="60" as="geometry" />
@@ -218,6 +218,63 @@
         </mxCell>
         <mxCell id="3exO_2V48oAmcC_ycoTt-12" value="1. we should have a method called getInstance() which will return the singleton object &amp;amp; it should be a static method.&lt;br&gt;2. can we declare a private constructor? yes : in sinlgleton DP.&lt;br&gt;3. can we create the static ref ? yes ===&amp;gt; only one.;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="S59G7o2Gz0paoqSSLFve-1">
           <mxGeometry x="160" y="1280" width="340" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="S59G7o2Gz0paoqSSLFve-1" source="3exO_2V48oAmcC_ycoTt-14" target="3exO_2V48oAmcC_ycoTt-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="S59G7o2Gz0paoqSSLFve-1" source="3exO_2V48oAmcC_ycoTt-14" target="3exO_2V48oAmcC_ycoTt-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="S59G7o2Gz0paoqSSLFve-1" source="3exO_2V48oAmcC_ycoTt-14" target="3exO_2V48oAmcC_ycoTt-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="S59G7o2Gz0paoqSSLFve-1" source="3exO_2V48oAmcC_ycoTt-14" target="3exO_2V48oAmcC_ycoTt-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="S59G7o2Gz0paoqSSLFve-1" source="3exO_2V48oAmcC_ycoTt-14" target="3exO_2V48oAmcC_ycoTt-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-14" value="Superheros" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="S59G7o2Gz0paoqSSLFve-1">
+          <mxGeometry x="420" y="1690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-15" value="Ironman" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="S59G7o2Gz0paoqSSLFve-1">
+          <mxGeometry x="420" y="1830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-17" value="superman" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="S59G7o2Gz0paoqSSLFve-1">
+          <mxGeometry x="190" y="1830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-19" value="Batman" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="S59G7o2Gz0paoqSSLFve-1">
+          <mxGeometry x="650" y="1830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-21" value="Shaktiman" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="S59G7o2Gz0paoqSSLFve-1">
+          <mxGeometry x="920" y="1830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-23" value="spiderman" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="S59G7o2Gz0paoqSSLFve-1">
+          <mxGeometry x="1130" y="1830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="S59G7o2Gz0paoqSSLFve-1" source="3exO_2V48oAmcC_ycoTt-25" target="3exO_2V48oAmcC_ycoTt-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.575;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="S59G7o2Gz0paoqSSLFve-1" source="3exO_2V48oAmcC_ycoTt-25" target="3exO_2V48oAmcC_ycoTt-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="S59G7o2Gz0paoqSSLFve-1" source="3exO_2V48oAmcC_ycoTt-25" target="3exO_2V48oAmcC_ycoTt-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="S59G7o2Gz0paoqSSLFve-1" source="3exO_2V48oAmcC_ycoTt-25" target="3exO_2V48oAmcC_ycoTt-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-25" value="Flyable" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="S59G7o2Gz0paoqSSLFve-1">
+          <mxGeometry x="620" y="2000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="S59G7o2Gz0paoqSSLFve-1" source="3exO_2V48oAmcC_ycoTt-29" target="3exO_2V48oAmcC_ycoTt-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="S59G7o2Gz0paoqSSLFve-1">
+          <mxGeometry x="240" y="2140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3exO_2V48oAmcC_ycoTt-30" value="plane" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="S59G7o2Gz0paoqSSLFve-1">
+          <mxGeometry x="440" y="2140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
