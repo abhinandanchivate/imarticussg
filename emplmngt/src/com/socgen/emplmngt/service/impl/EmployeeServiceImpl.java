@@ -3,10 +3,18 @@ package com.socgen.emplmngt.service.impl;
 import java.util.List;
 
 import com.socgen.emplmngt.dto.Employee;
+import com.socgen.emplmngt.repository.EmployeeRepository;
+import com.socgen.emplmngt.repository.impl.EmployeeRepositoryImpl;
 import com.socgen.emplmngt.service.EmployeeService;
 
 public class EmployeeServiceImpl implements EmployeeService {
 
+	// service must have employeerepository object(singleton )
+	
+	private EmployeeRepository employeeRepository = 
+			EmployeeRepositoryImpl.getInstance();
+	
+	
 	private static EmployeeServiceImpl employeeServiceImpl;
 	private EmployeeServiceImpl() {
 		// TODO Auto-generated constructor stub
@@ -25,7 +33,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Override
 	public String addEmployee(Employee employee) {
 		// TODO Auto-generated method stub
-		return null;
+		return employeeRepository.addEmployee(employee);
 	}
 
 	@Override
