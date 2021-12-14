@@ -45,19 +45,20 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Override
 	public String deleteEmployee(String id) {
 		// TODO Auto-generated method stub
-		return null;
+		
+		return employeeRepository.deleteEmployee(id);
 	}
 
 	@Override
 	public Employee getEmployeeById(String id) {
 		// TODO Auto-generated method stub
-		return null;
+		return employeeRepository.getEmployeeById(id);
 	}
 
 	@Override
 	public List<Employee> getEmployees() {
 		// TODO Auto-generated method stub
-		return null;
+		return employeeRepository.getEmployees();
 	}
 
 }
