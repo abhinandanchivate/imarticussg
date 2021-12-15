@@ -1,25 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T07:09:09.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="isWKTaNZpBq0Ws0wbUcA" version="15.9.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-15T07:16:09.638Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="pgyQ_Lr7O5Z4raAbgNV1" version="15.9.4" type="github" pages="6">
   <diagram id="44bqtlpU4LyTsHwCAsyh" name="basic execution">
-    <mxGraphModel dx="1422" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1662" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="U8Bb4aq34TSj757WVQ3O-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U8Bb4aq34TSj757WVQ3O-1" target="U8Bb4aq34TSj757WVQ3O-2">
+        <mxCell id="U8Bb4aq34TSj757WVQ3O-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U8Bb4aq34TSj757WVQ3O-1" target="U8Bb4aq34TSj757WVQ3O-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U8Bb4aq34TSj757WVQ3O-1" value="ctrl + F11 (to run the java class) main method" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U8Bb4aq34TSj757WVQ3O-1" value="ctrl + F11 (to run the java class) main method" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="140" width="460" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U8Bb4aq34TSj757WVQ3O-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U8Bb4aq34TSj757WVQ3O-2" target="U8Bb4aq34TSj757WVQ3O-5">
+        <mxCell id="U8Bb4aq34TSj757WVQ3O-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U8Bb4aq34TSj757WVQ3O-2" target="U8Bb4aq34TSj757WVQ3O-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U8Bb4aq34TSj757WVQ3O-2" value=".class" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="U8Bb4aq34TSj757WVQ3O-2" value=".class" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U8Bb4aq34TSj757WVQ3O-4" value="javac command ( it is taken care by eclipse/STS)" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="U8Bb4aq34TSj757WVQ3O-4" value="javac command ( it is taken care by eclipse/STS)" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="390" y="230" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U8Bb4aq34TSj757WVQ3O-5" value="java CLASSNAME ( it will exectute it and display the result on the console screen)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="U8Bb4aq34TSj757WVQ3O-5" value="java CLASSNAME ( it will exectute it and display the result on the console screen)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="242.5" y="450" width="255" height="90" as="geometry" />
         </mxCell>
       </root>
@@ -292,236 +292,366 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MRGyFp1-eNRWCS2wmSUA" name="Collections">
-    <mxGraphModel dx="3122" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3362" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Y5smJsopAH0a19ojau_4-0" />
         <mxCell id="Y5smJsopAH0a19ojau_4-1" parent="Y5smJsopAH0a19ojau_4-0" />
-        <mxCell id="Y5smJsopAH0a19ojau_4-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-2" target="Y5smJsopAH0a19ojau_4-3">
+        <mxCell id="Y5smJsopAH0a19ojau_4-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-2" target="Y5smJsopAH0a19ojau_4-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-2" target="Y5smJsopAH0a19ojau_4-5">
+        <mxCell id="Y5smJsopAH0a19ojau_4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-2" target="Y5smJsopAH0a19ojau_4-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-2" value="Collection" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-2" value="Collection" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="270" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-3" target="Y5smJsopAH0a19ojau_4-7">
+        <mxCell id="Y5smJsopAH0a19ojau_4-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-3" target="Y5smJsopAH0a19ojau_4-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-3" target="Y5smJsopAH0a19ojau_4-9">
+        <mxCell id="Y5smJsopAH0a19ojau_4-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-3" target="Y5smJsopAH0a19ojau_4-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-3" target="Y5smJsopAH0a19ojau_4-11">
+        <mxCell id="Y5smJsopAH0a19ojau_4-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-3" target="Y5smJsopAH0a19ojau_4-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-3" value="One Dim" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-3" value="One Dim" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="130" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-5" target="Y5smJsopAH0a19ojau_4-13">
+        <mxCell id="Y5smJsopAH0a19ojau_4-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-5" target="Y5smJsopAH0a19ojau_4-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-5" target="Y5smJsopAH0a19ojau_4-15">
+        <mxCell id="Y5smJsopAH0a19ojau_4-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-5" target="Y5smJsopAH0a19ojau_4-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-5" value="Two Dim" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-5" value="Two Dim" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="460" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-7" target="Y5smJsopAH0a19ojau_4-20">
+        <mxCell id="Y5smJsopAH0a19ojau_4-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-7" target="Y5smJsopAH0a19ojau_4-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-7" target="Y5smJsopAH0a19ojau_4-27">
+        <mxCell id="Y5smJsopAH0a19ojau_4-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-7" target="Y5smJsopAH0a19ojau_4-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-7" target="Y5smJsopAH0a19ojau_4-29">
+        <mxCell id="Y5smJsopAH0a19ojau_4-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-7" target="Y5smJsopAH0a19ojau_4-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-7" value="List" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-7" value="List" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-20" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-9" target="Y5smJsopAH0a19ojau_4-22">
+        <mxCell id="Y5smJsopAH0a19ojau_4-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-9" target="Y5smJsopAH0a19ojau_4-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-9" value="Set" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-9" value="Set" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="130" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-11" target="Y5smJsopAH0a19ojau_4-24">
+        <mxCell id="Y5smJsopAH0a19ojau_4-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-11" target="Y5smJsopAH0a19ojau_4-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-11" value="queue" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-11" value="queue" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="305" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.692;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-13" target="Y5smJsopAH0a19ojau_4-15">
+        <mxCell id="Y5smJsopAH0a19ojau_4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.692;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-13" target="Y5smJsopAH0a19ojau_4-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-13" value="Map" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-13" value="Map" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="460" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-15" value="K, V pair" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-15" value="K, V pair" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="660" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-17" target="Y5smJsopAH0a19ojau_4-18">
+        <mxCell id="Y5smJsopAH0a19ojau_4-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-17" target="Y5smJsopAH0a19ojau_4-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-17" value="What is Collection?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-17" value="What is Collection?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-230" y="120" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-18" value="it is an object which is capable to hold group of objects" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-18" value="it is an object which is capable to hold group of objects" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-180" y="260" width="120" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-20" value="allow duplicates" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-20" value="allow duplicates" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-20" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CoClu1UWKOebCPc0C3EN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-22" target="CoClu1UWKOebCPc0C3EN-6">
+        <mxCell id="CoClu1UWKOebCPc0C3EN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-22" target="CoClu1UWKOebCPc0C3EN-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CoClu1UWKOebCPc0C3EN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-22" target="CoClu1UWKOebCPc0C3EN-10">
+        <mxCell id="CoClu1UWKOebCPc0C3EN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-22" target="CoClu1UWKOebCPc0C3EN-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-22" value="uniqueness" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-22" value="uniqueness" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="130" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-24" value="will follow FIFO" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-24" value="will follow FIFO" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="390" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-27" target="Y5smJsopAH0a19ojau_4-31">
+        <mxCell id="Y5smJsopAH0a19ojau_4-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-27" target="Y5smJsopAH0a19ojau_4-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-27" value="arrayList" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-27" value="arrayList" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-460" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-29" target="Y5smJsopAH0a19ojau_4-33">
+        <mxCell id="Y5smJsopAH0a19ojau_4-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-29" target="Y5smJsopAH0a19ojau_4-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-29" value="LinkedList" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-29" value="LinkedList" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-270" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CoClu1UWKOebCPc0C3EN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-31" target="CoClu1UWKOebCPc0C3EN-2">
+        <mxCell id="CoClu1UWKOebCPc0C3EN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-31" target="CoClu1UWKOebCPc0C3EN-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-31" value="array" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-31" value="array" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-460" y="760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CoClu1UWKOebCPc0C3EN-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-33" target="CoClu1UWKOebCPc0C3EN-4">
+        <mxCell id="CoClu1UWKOebCPc0C3EN-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-33" target="CoClu1UWKOebCPc0C3EN-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-33" value="it will follow the doubly linkedlist implementation" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-33" value="it will follow the doubly linkedlist implementation" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-270" y="760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-35" target="Y5smJsopAH0a19ojau_4-36">
+        <mxCell id="Y5smJsopAH0a19ojau_4-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-35" target="Y5smJsopAH0a19ojau_4-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-35" value="Collection" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-35" value="Collection" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-940" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-36" target="Y5smJsopAH0a19ojau_4-38">
+        <mxCell id="Y5smJsopAH0a19ojau_4-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-36" target="Y5smJsopAH0a19ojau_4-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-36" value="List" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-36" value="List" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-940" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-38" target="Y5smJsopAH0a19ojau_4-40">
+        <mxCell id="Y5smJsopAH0a19ojau_4-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-38" target="Y5smJsopAH0a19ojau_4-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-38" target="Y5smJsopAH0a19ojau_4-42">
+        <mxCell id="Y5smJsopAH0a19ojau_4-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-38" target="Y5smJsopAH0a19ojau_4-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-38" value="AbstractList" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-38" value="AbstractList" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-940" y="740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-40" target="Y5smJsopAH0a19ojau_4-47">
+        <mxCell id="Y5smJsopAH0a19ojau_4-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-40" target="Y5smJsopAH0a19ojau_4-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-40" target="Y5smJsopAH0a19ojau_4-49">
+        <mxCell id="Y5smJsopAH0a19ojau_4-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-40" target="Y5smJsopAH0a19ojau_4-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-40" target="Y5smJsopAH0a19ojau_4-51">
+        <mxCell id="Y5smJsopAH0a19ojau_4-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="Y5smJsopAH0a19ojau_4-40" target="Y5smJsopAH0a19ojau_4-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-40" value="arrayList" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-40" value="arrayList" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-1090" y="910" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-42" value="LinkedList" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-42" value="LinkedList" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-790" y="910" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-44" value="Interfaces" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-44" value="Interfaces" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-1210" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-45" value="Abstractclass" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-45" value="Abstractclass" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-1210" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-46" value="Concrete classes" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-46" value="Concrete classes" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-1210" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-47" value="ArrayList() it will hold 10 objects initially" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-47" value="ArrayList() it will hold 10 objects initially" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-1240" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-49" value="ArrayList(number)&lt;br&gt;as per the specified number" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-49" value="ArrayList(number)&lt;br&gt;as per the specified number" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-1090" y="1140" width="120" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="Y5smJsopAH0a19ojau_4-51" value="ArrayList(collection)&lt;br&gt;it will accept the collection of any type as an argument" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="Y5smJsopAH0a19ojau_4-51" value="ArrayList(collection)&lt;br&gt;it will accept the collection of any type as an argument" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-930" y="1140" width="170" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="CoClu1UWKOebCPc0C3EN-0" value="array" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="CoClu1UWKOebCPc0C3EN-0" value="array" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-970" y="960" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CoClu1UWKOebCPc0C3EN-1" value="doubli" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="CoClu1UWKOebCPc0C3EN-1" value="doubli" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-790" y="980" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CoClu1UWKOebCPc0C3EN-2" value="searching is the priority" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="CoClu1UWKOebCPc0C3EN-2" value="searching is the priority" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-460" y="900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CoClu1UWKOebCPc0C3EN-4" value="insertion or deletion is the priority" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="CoClu1UWKOebCPc0C3EN-4" value="insertion or deletion is the priority" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-270" y="900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CoClu1UWKOebCPc0C3EN-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="CoClu1UWKOebCPc0C3EN-6" target="CoClu1UWKOebCPc0C3EN-8">
+        <mxCell id="CoClu1UWKOebCPc0C3EN-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="CoClu1UWKOebCPc0C3EN-6" target="CoClu1UWKOebCPc0C3EN-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CoClu1UWKOebCPc0C3EN-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="CoClu1UWKOebCPc0C3EN-6" target="CoClu1UWKOebCPc0C3EN-14">
+        <mxCell id="CoClu1UWKOebCPc0C3EN-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="CoClu1UWKOebCPc0C3EN-6" target="CoClu1UWKOebCPc0C3EN-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CoClu1UWKOebCPc0C3EN-6" value="HashSet" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontColor=#333333;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="CoClu1UWKOebCPc0C3EN-6" value="HashSet" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontColor=#333333;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="130" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CoClu1UWKOebCPc0C3EN-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="CoClu1UWKOebCPc0C3EN-8" target="CoClu1UWKOebCPc0C3EN-16">
+        <mxCell id="CoClu1UWKOebCPc0C3EN-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="CoClu1UWKOebCPc0C3EN-8" target="CoClu1UWKOebCPc0C3EN-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CoClu1UWKOebCPc0C3EN-8" value="LinkedHashSet" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontColor=#333333;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="CoClu1UWKOebCPc0C3EN-8" value="LinkedHashSet" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontColor=#333333;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="130" y="820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CoClu1UWKOebCPc0C3EN-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="Y5smJsopAH0a19ojau_4-1" source="CoClu1UWKOebCPc0C3EN-10" target="CoClu1UWKOebCPc0C3EN-12">
+        <mxCell id="CoClu1UWKOebCPc0C3EN-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="Y5smJsopAH0a19ojau_4-1" source="CoClu1UWKOebCPc0C3EN-10" target="CoClu1UWKOebCPc0C3EN-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CoClu1UWKOebCPc0C3EN-10" value="TreeSet" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontColor=#333333;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="CoClu1UWKOebCPc0C3EN-10" value="TreeSet" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontColor=#333333;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="305" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CoClu1UWKOebCPc0C3EN-12" value="sorted order with uniqueness" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="CoClu1UWKOebCPc0C3EN-12" value="sorted order with uniqueness" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="505" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CoClu1UWKOebCPc0C3EN-14" value="only uniqueness but random order" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="CoClu1UWKOebCPc0C3EN-14" value="only uniqueness but random order" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-70" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CoClu1UWKOebCPc0C3EN-16" value="insertion order with no duplication" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;" vertex="1" parent="Y5smJsopAH0a19ojau_4-1">
+        <mxCell id="CoClu1UWKOebCPc0C3EN-16" value="insertion order with no duplication" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;" parent="Y5smJsopAH0a19ojau_4-1" vertex="1">
           <mxGeometry x="-70" y="820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="7CYAVxP-24bKXOooSQ59" name="set internals">
-    <mxGraphModel dx="1848" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="FBuN8S8ONKisC941Rtct-0" />
         <mxCell id="FBuN8S8ONKisC941Rtct-1" parent="FBuN8S8ONKisC941Rtct-0" />
-        <mxCell id="FBuN8S8ONKisC941Rtct-2" value="equals :&amp;nbsp;&lt;br&gt;hashcode:" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+        <mxCell id="FBuN8S8ONKisC941Rtct-2" value="equals :&amp;nbsp;&lt;br&gt;hashcode:" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="FBuN8S8ONKisC941Rtct-1" vertex="1">
           <mxGeometry x="140" y="90" width="470" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="FBuN8S8ONKisC941Rtct-3" value="Object class is called as mother of all classes/ every class is directly or indirectly inheriting the object class" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+        <mxCell id="FBuN8S8ONKisC941Rtct-3" value="Object class is called as mother of all classes/ every class is directly or indirectly inheriting the object class" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="FBuN8S8ONKisC941Rtct-1" vertex="1">
           <mxGeometry x="320" y="520" width="260" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="FBuN8S8ONKisC941Rtct-4" value="&#xa;&#xa;&lt;p style=&quot;color: rgb(71, 71, 71); font-family: &amp;quot;dejavu serif&amp;quot;, georgia, &amp;quot;times new roman&amp;quot;, times, serif; font-size: 18px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;The general contract of&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 18px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;hashCode&lt;/code&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;is:&lt;/p&gt;&lt;ul style=&quot;list-style-type: disc; color: rgb(71, 71, 71); font-family: &amp;quot;dejavu serif&amp;quot;, georgia, &amp;quot;times new roman&amp;quot;, times, serif; font-size: 18px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;font-size: 18px;&quot;&gt;Whenever it is invoked on the same object more than once during an execution of a Java application, the&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 18px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;hashCode&lt;/code&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;method must consistently return the same integer, provided no information used in&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 18px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;equals&lt;/code&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;comparisons on the object is modified. This integer need not remain consistent from one execution of an application to another execution of the same application.&lt;/li&gt;&lt;li style=&quot;font-size: 18px;&quot;&gt;If two objects are equal according to the&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 18px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;equals(Object)&lt;/code&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;method, then calling the&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 18px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;hashCode&lt;/code&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;method on each of the two objects must produce the same integer result.&lt;/li&gt;&lt;li style=&quot;font-size: 18px;&quot;&gt;It is&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;font-size: 18px;&quot;&gt;not&lt;/em&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;required that if two objects are unequal according to the&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://docs.oracle.com/javase/10/docs/api/java/lang/Object.html#equals(java.lang.Object)&quot; style=&quot;text-decoration: none; color: rgb(74, 103, 130); font-size: 18px;&quot;&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 18px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;equals(java.lang.Object)&lt;/code&gt;&lt;/a&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;method, then calling the&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 18px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;hashCode&lt;/code&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;method on each of the two objects must produce distinct integer results. However, the programmer should be aware that producing distinct integer results for unequal objects may improve the performance of hash tables.&lt;/li&gt;&lt;/ul&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+        <mxCell id="FBuN8S8ONKisC941Rtct-4" value="&#xa;&#xa;&lt;p style=&quot;color: rgb(71, 71, 71); font-family: &amp;quot;dejavu serif&amp;quot;, georgia, &amp;quot;times new roman&amp;quot;, times, serif; font-size: 18px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;The general contract of&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 18px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;hashCode&lt;/code&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;is:&lt;/p&gt;&lt;ul style=&quot;list-style-type: disc; color: rgb(71, 71, 71); font-family: &amp;quot;dejavu serif&amp;quot;, georgia, &amp;quot;times new roman&amp;quot;, times, serif; font-size: 18px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;font-size: 18px;&quot;&gt;Whenever it is invoked on the same object more than once during an execution of a Java application, the&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 18px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;hashCode&lt;/code&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;method must consistently return the same integer, provided no information used in&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 18px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;equals&lt;/code&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;comparisons on the object is modified. This integer need not remain consistent from one execution of an application to another execution of the same application.&lt;/li&gt;&lt;li style=&quot;font-size: 18px;&quot;&gt;If two objects are equal according to the&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 18px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;equals(Object)&lt;/code&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;method, then calling the&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 18px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;hashCode&lt;/code&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;method on each of the two objects must produce the same integer result.&lt;/li&gt;&lt;li style=&quot;font-size: 18px;&quot;&gt;It is&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;font-size: 18px;&quot;&gt;not&lt;/em&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;required that if two objects are unequal according to the&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://docs.oracle.com/javase/10/docs/api/java/lang/Object.html#equals(java.lang.Object)&quot; style=&quot;text-decoration: none; color: rgb(74, 103, 130); font-size: 18px;&quot;&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 18px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;equals(java.lang.Object)&lt;/code&gt;&lt;/a&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;method, then calling the&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 18px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;hashCode&lt;/code&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/span&gt;method on each of the two objects must produce distinct integer results. However, the programmer should be aware that producing distinct integer results for unequal objects may improve the performance of hash tables.&lt;/li&gt;&lt;/ul&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" parent="FBuN8S8ONKisC941Rtct-1" vertex="1">
           <mxGeometry x="10" y="710" width="1000" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="FBuN8S8ONKisC941Rtct-5" value="&#xa;&#xa;&lt;p style=&quot;color: rgb(71, 71, 71); font-family: &amp;quot;dejavu serif&amp;quot;, georgia, &amp;quot;times new roman&amp;quot;, times, serif; font-size: 21px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;The&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;equals&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;method implements an equivalence relation on non-null object references:&lt;/p&gt;&lt;ul style=&quot;list-style-type: disc; color: rgb(71, 71, 71); font-family: &amp;quot;dejavu serif&amp;quot;, georgia, &amp;quot;times new roman&amp;quot;, times, serif; font-size: 21px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;It is&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;font-size: 21px;&quot;&gt;reflexive&lt;/i&gt;: for any non-null reference value&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x&lt;/code&gt;,&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x.equals(x)&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;should return&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;true&lt;/code&gt;.&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;It is&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;font-size: 21px;&quot;&gt;symmetric&lt;/i&gt;: for any non-null reference values&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;and&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;y&lt;/code&gt;,&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x.equals(y)&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;should return&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;true&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;if and only if&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;y.equals(x)&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;returns&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;true&lt;/code&gt;.&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;It is&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;font-size: 21px;&quot;&gt;transitive&lt;/i&gt;: for any non-null reference values&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x&lt;/code&gt;,&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;y&lt;/code&gt;, and&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;z&lt;/code&gt;, if&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x.equals(y)&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;returns&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;true&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;and&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;y.equals(z)&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;returns&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;true&lt;/code&gt;, then&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x.equals(z)&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;should return&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;true&lt;/code&gt;.&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;It is&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;font-size: 21px;&quot;&gt;consistent&lt;/i&gt;: for any non-null reference values&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;and&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;y&lt;/code&gt;, multiple invocations of&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x.equals(y)&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;consistently return&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;true&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;or consistently return&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;false&lt;/code&gt;, provided no information used in&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;equals&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;comparisons on the objects is modified.&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;For any non-null reference value&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x&lt;/code&gt;,&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x.equals(null)&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;should return&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;false&lt;/code&gt;.&lt;/li&gt;&lt;/ul&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+        <mxCell id="FBuN8S8ONKisC941Rtct-5" value="&#xa;&#xa;&lt;p style=&quot;color: rgb(71, 71, 71); font-family: &amp;quot;dejavu serif&amp;quot;, georgia, &amp;quot;times new roman&amp;quot;, times, serif; font-size: 21px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;The&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;equals&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;method implements an equivalence relation on non-null object references:&lt;/p&gt;&lt;ul style=&quot;list-style-type: disc; color: rgb(71, 71, 71); font-family: &amp;quot;dejavu serif&amp;quot;, georgia, &amp;quot;times new roman&amp;quot;, times, serif; font-size: 21px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;It is&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;font-size: 21px;&quot;&gt;reflexive&lt;/i&gt;: for any non-null reference value&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x&lt;/code&gt;,&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x.equals(x)&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;should return&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;true&lt;/code&gt;.&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;It is&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;font-size: 21px;&quot;&gt;symmetric&lt;/i&gt;: for any non-null reference values&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;and&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;y&lt;/code&gt;,&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x.equals(y)&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;should return&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;true&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;if and only if&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;y.equals(x)&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;returns&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;true&lt;/code&gt;.&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;It is&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;font-size: 21px;&quot;&gt;transitive&lt;/i&gt;: for any non-null reference values&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x&lt;/code&gt;,&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;y&lt;/code&gt;, and&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;z&lt;/code&gt;, if&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x.equals(y)&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;returns&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;true&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;and&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;y.equals(z)&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;returns&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;true&lt;/code&gt;, then&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x.equals(z)&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;should return&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;true&lt;/code&gt;.&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;It is&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;font-size: 21px;&quot;&gt;consistent&lt;/i&gt;: for any non-null reference values&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;and&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;y&lt;/code&gt;, multiple invocations of&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x.equals(y)&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;consistently return&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;true&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;or consistently return&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;false&lt;/code&gt;, provided no information used in&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;equals&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;comparisons on the objects is modified.&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;For any non-null reference value&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x&lt;/code&gt;,&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;x.equals(null)&lt;/code&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;should return&lt;span style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 21px; padding-top: 4px; margin-top: 8px; line-height: 1.4em;&quot;&gt;false&lt;/code&gt;.&lt;/li&gt;&lt;/ul&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="FBuN8S8ONKisC941Rtct-1" vertex="1">
           <mxGeometry y="1160" width="860" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FBuN8S8ONKisC941Rtct-1" source="VUcZ0A96xji_j2JNoRlQ-0" target="VUcZ0A96xji_j2JNoRlQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-0" value="add method :&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+          <mxGeometry x="390" y="1790" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FBuN8S8ONKisC941Rtct-1" source="VUcZ0A96xji_j2JNoRlQ-1" target="VUcZ0A96xji_j2JNoRlQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-1" value="it will assign the bucket" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+          <mxGeometry x="785" y="1790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-3" value="hashcode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+          <mxGeometry x="680" y="1840" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-4" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+          <mxGeometry x="1000" y="1640" width="515" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+          <mxGeometry x="1060" y="1500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+          <mxGeometry x="1230" y="1500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+          <mxGeometry x="1380" y="1500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-11" value="" style="endArrow=none;html=1;rounded=0;entryX=1.006;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="FBuN8S8ONKisC941Rtct-1" target="VUcZ0A96xji_j2JNoRlQ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="1780" as="sourcePoint" />
+            <mxPoint x="1040" y="1730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1.008;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="FBuN8S8ONKisC941Rtct-1" target="VUcZ0A96xji_j2JNoRlQ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="1900" as="sourcePoint" />
+            <mxPoint x="1040" y="1850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-13" value="1. new Employee(&quot;ab001&quot;,&quot;abhi&quot;,&quot;chivate&quot;,200.0f);&lt;br&gt;2. &quot;advik&quot;&lt;br&gt;3. 1000&lt;br&gt;4. new StringBuffer(&quot;abc&quot;)&lt;br&gt;5. new Employee(&quot;ab001&quot;,&quot;abhi&quot;,&quot;chivate&quot;,200.0f);&lt;br&gt;6. &quot;advik&quot;." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+          <mxGeometry x="510" y="1910" width="290" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-14" value="1000" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+          <mxGeometry x="920" y="1690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="FBuN8S8ONKisC941Rtct-1" source="VUcZ0A96xji_j2JNoRlQ-15" target="VUcZ0A96xji_j2JNoRlQ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-15" value="new Employee(&quot;ab001&quot;,&quot;abhi&quot;,&quot;chivate&quot;,200.0f);" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+          <mxGeometry x="1040" y="1660" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FBuN8S8ONKisC941Rtct-1" source="VUcZ0A96xji_j2JNoRlQ-16" target="VUcZ0A96xji_j2JNoRlQ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-16" value="&quot;advik&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+          <mxGeometry x="1050" y="1700" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FBuN8S8ONKisC941Rtct-1" source="VUcZ0A96xji_j2JNoRlQ-17" target="VUcZ0A96xji_j2JNoRlQ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-17" value="1000" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+          <mxGeometry x="1050" y="1805" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-18" value="new StringBuffer(&quot;abc&quot;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+          <mxGeometry x="1070" y="1850" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FBuN8S8ONKisC941Rtct-1" source="VUcZ0A96xji_j2JNoRlQ-19" target="VUcZ0A96xji_j2JNoRlQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-19" value="LinkedHashSet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+          <mxGeometry x="620" y="2340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-20" value="it will not allow duplicates&amp;nbsp;&lt;br&gt;it will allow only 1 null value&lt;br&gt;it is derived from HashSet&lt;br&gt;&lt;b&gt;insertion order is expected with no duplication&lt;br&gt;&lt;br&gt;LinkedList===&amp;gt; LinkedHS&lt;br&gt;&lt;br&gt;bit slower than HashSet&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+          <mxGeometry x="280" y="2260" width="235" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcZ0A96xji_j2JNoRlQ-25" value="TreeSet : sorted data&lt;br style=&quot;font-size: 17px;&quot;&gt;by default it will give the natural sorted order / ascending order&lt;br style=&quot;font-size: 17px;&quot;&gt;if u want to change that order to descending u can do it.&lt;br style=&quot;font-size: 17px;&quot;&gt;it will not allow any &lt;b style=&quot;font-size: 17px;&quot;&gt;null if we will provide it will not any checked exception but it will raise NPE during the execution&lt;/b&gt;.&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;any type which we are going to use with Treeset it must implement the Comparable interface or we have to provide the comparator interface.&lt;br style=&quot;font-size: 17px;&quot;&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="FBuN8S8ONKisC941Rtct-1">
+          <mxGeometry x="480" y="2670" width="460" height="380" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UOv4V2IcTlECgRLQjtBI" name="map">
+    <mxGraphModel dx="2272" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="a9Qjg5Bd8rCVvgZqEUqg-0" />
+        <mxCell id="a9Qjg5Bd8rCVvgZqEUqg-1" parent="a9Qjg5Bd8rCVvgZqEUqg-0" />
+        <mxCell id="a9Qjg5Bd8rCVvgZqEUqg-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="a9Qjg5Bd8rCVvgZqEUqg-1" source="a9Qjg5Bd8rCVvgZqEUqg-2" target="a9Qjg5Bd8rCVvgZqEUqg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a9Qjg5Bd8rCVvgZqEUqg-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="a9Qjg5Bd8rCVvgZqEUqg-1" source="a9Qjg5Bd8rCVvgZqEUqg-2" target="a9Qjg5Bd8rCVvgZqEUqg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a9Qjg5Bd8rCVvgZqEUqg-2" value="map" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="a9Qjg5Bd8rCVvgZqEUqg-1">
+          <mxGeometry x="140" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a9Qjg5Bd8rCVvgZqEUqg-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="a9Qjg5Bd8rCVvgZqEUqg-1" source="a9Qjg5Bd8rCVvgZqEUqg-3" target="a9Qjg5Bd8rCVvgZqEUqg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a9Qjg5Bd8rCVvgZqEUqg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="a9Qjg5Bd8rCVvgZqEUqg-1" source="a9Qjg5Bd8rCVvgZqEUqg-3" target="a9Qjg5Bd8rCVvgZqEUqg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a9Qjg5Bd8rCVvgZqEUqg-3" value="hashmap" style="whiteSpace=wrap;html=1;fontSize=17;rounded=1;" vertex="1" parent="a9Qjg5Bd8rCVvgZqEUqg-1">
+          <mxGeometry x="40" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a9Qjg5Bd8rCVvgZqEUqg-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="a9Qjg5Bd8rCVvgZqEUqg-1" source="a9Qjg5Bd8rCVvgZqEUqg-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9Qjg5Bd8rCVvgZqEUqg-5" value="treemap" style="whiteSpace=wrap;html=1;fontSize=17;rounded=1;" vertex="1" parent="a9Qjg5Bd8rCVvgZqEUqg-1">
+          <mxGeometry x="240" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a9Qjg5Bd8rCVvgZqEUqg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.397;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=17;" edge="1" parent="a9Qjg5Bd8rCVvgZqEUqg-1" source="a9Qjg5Bd8rCVvgZqEUqg-7" target="a9Qjg5Bd8rCVvgZqEUqg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a9Qjg5Bd8rCVvgZqEUqg-7" value="linkedhashmap" style="whiteSpace=wrap;html=1;fontSize=17;rounded=1;" vertex="1" parent="a9Qjg5Bd8rCVvgZqEUqg-1">
+          <mxGeometry x="40" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a9Qjg5Bd8rCVvgZqEUqg-9" value="sets will hold a single value but sets are backed by map.&lt;br&gt;map will expect 2 values (k, v) but set will hold only1.&lt;br&gt;then what abt internal arrangements?&lt;br&gt;(memory part)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="a9Qjg5Bd8rCVvgZqEUqg-1">
+          <mxGeometry x="360" y="540" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="a9Qjg5Bd8rCVvgZqEUqg-10" value="1. key part must be unique&amp;nbsp;&lt;br&gt;2. we can insert only 1 null value as a key&lt;br&gt;3. we can insert duplicate values in value part.&lt;br&gt;4. we can have null as a value multiple times in value part.&lt;br&gt;5. if we will add a duplicate k, V pair then it will replace the old value with new value.&lt;br&gt;6. internally the arrangement will be done on the basis of key.&lt;br&gt;7. we cant predict hte order&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="a9Qjg5Bd8rCVvgZqEUqg-1">
+          <mxGeometry x="-590" y="175" width="305" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="a9Qjg5Bd8rCVvgZqEUqg-12" value="1. key part must be unique&amp;nbsp;&lt;br&gt;2. we can insert only 1 null value as a key&lt;br&gt;3. we can insert duplicate values in value part.&lt;br&gt;4. we can have null as a value multiple times in value part.&lt;br&gt;5. if we will add a duplicate k, V pair then it will replace the old value with new value.&lt;br&gt;6. internally the arrangement will be done on the basis of key.&lt;br&gt;7. we can predict the order and it is based on insertion order but no duplication of keys if we have any duplicate key then it will replace old value with new value." style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="a9Qjg5Bd8rCVvgZqEUqg-1">
+          <mxGeometry x="-590" y="530" width="310" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="a9Qjg5Bd8rCVvgZqEUqg-16" value="1. key part must be unique&amp;nbsp;&lt;br&gt;2. we can not insert null value as a key&lt;br&gt;3. we can insert duplicate values in value part.&lt;br&gt;4. we can have null as a value multiple times in value part.&lt;br&gt;5. if we will add a duplicate k, V pair then it will replace the old value with new value.&lt;br&gt;6. internally the arrangement will be done on the basis of key.&lt;br&gt;7. we will get the sorted order" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="a9Qjg5Bd8rCVvgZqEUqg-1">
+          <mxGeometry x="440" y="180" width="305" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
