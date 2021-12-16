@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T07:16:09.638Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="pgyQ_Lr7O5Z4raAbgNV1" version="15.9.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-12-16T05:34:30.642Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="JTrQs05QiKslg7VgJTlw" version="15.9.4" type="github" pages="7">
   <diagram id="44bqtlpU4LyTsHwCAsyh" name="basic execution">
     <mxGraphModel dx="1662" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -652,6 +652,20 @@
         </mxCell>
         <mxCell id="a9Qjg5Bd8rCVvgZqEUqg-16" value="1. key part must be unique&amp;nbsp;&lt;br&gt;2. we can not insert null value as a key&lt;br&gt;3. we can insert duplicate values in value part.&lt;br&gt;4. we can have null as a value multiple times in value part.&lt;br&gt;5. if we will add a duplicate k, V pair then it will replace the old value with new value.&lt;br&gt;6. internally the arrangement will be done on the basis of key.&lt;br&gt;7. we will get the sorted order" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="a9Qjg5Bd8rCVvgZqEUqg-1">
           <mxGeometry x="440" y="180" width="305" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="a9Qjg5Bd8rCVvgZqEUqg-17" value="entrySet : it will hold your k,v pair in terms of entry.&lt;br&gt;it will give us the set of all entry types which are available in entryset." style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="a9Qjg5Bd8rCVvgZqEUqg-1">
+          <mxGeometry x="-130" y="990" width="390" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ppfazCdQ9SfkU-cpQn_c" name="Optional">
+    <mxGraphModel dx="1422" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="RzpVp4_nGz5C9WYV5otb-0" />
+        <mxCell id="RzpVp4_nGz5C9WYV5otb-1" parent="RzpVp4_nGz5C9WYV5otb-0" />
+        <mxCell id="RzpVp4_nGz5C9WYV5otb-2" value="1. empty : there is no data/objects&lt;br&gt;2. of :&amp;nbsp;&lt;br&gt;3. ofnullable empty and of." style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="RzpVp4_nGz5C9WYV5otb-1">
+          <mxGeometry x="160" y="90" width="520" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
