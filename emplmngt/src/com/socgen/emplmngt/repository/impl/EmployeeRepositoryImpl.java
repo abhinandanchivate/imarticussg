@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -13,7 +14,7 @@ import com.socgen.emplmngt.repository.EmployeeRepository;
 
 public class EmployeeRepositoryImpl implements EmployeeRepository {
 
-	private Set<Employee> employees = new TreeSet<>();
+	private Set<Employee> employees = new HashSet<>();
 	// 16
 	// new HashSet(Collection)
 	// new HashSet(size, load factor)
@@ -55,11 +56,11 @@ public class EmployeeRepositoryImpl implements EmployeeRepository {
 
 	@Override
 	public String deleteEmployee(String id) {
-		Employee employee = this.getEmployeeById(id);
+		Optional<Employee> optional = this.getEmployeeById(id);
 
-		if (employee != null) {
+		if (!optional.isPresent()) {
 			
-			employees.remove(employee);
+			employees.remove(optional.get());
 			return "success";
 
 		} else
@@ -68,7 +69,7 @@ public class EmployeeRepositoryImpl implements EmployeeRepository {
 	}
 
 	@Override
-	public Employee getEmployeeById(String id) {
+	public Optional<Employee> getEmployeeById(String id) {
 		// TODO Auto-generated method stub
 
 		// to find the specific id ===> we need to retrieve the employee object ===>
@@ -78,18 +79,18 @@ public class EmployeeRepositoryImpl implements EmployeeRepository {
 		for (Employee employee : employees) {
 
 			if (id.equals(employee.getEmpId())) {
-				return employee;
+				return Optional.of(employee);
 			}
 
 		}
 
-		return null;
+		return Optional.empty();
 	}
 
 	@Override
-	public List<Employee> getEmployees() {
+	public Optional<List<Employee>> getEmployees() {
 		// TODO Auto-generated method stub
-		return new ArrayList<>(employees);
+		return Optional.ofNullable(new ArrayList<>(employees));
 		// set to list
 	}
 

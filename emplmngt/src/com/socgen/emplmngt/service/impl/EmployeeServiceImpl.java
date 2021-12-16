@@ -1,6 +1,7 @@
 package com.socgen.emplmngt.service.impl;
 
 import java.util.List;
+import java.util.Optional;
 
 import com.socgen.emplmngt.dto.Employee;
 import com.socgen.emplmngt.repository.EmployeeRepository;
@@ -50,13 +51,13 @@ public class EmployeeServiceImpl implements EmployeeService {
 	}
 
 	@Override
-	public Employee getEmployeeById(String id) {
+	public Optional<Employee> getEmployeeById(String id) {
 		// TODO Auto-generated method stub
 		return employeeRepository.getEmployeeById(id);
 	}
 
 	@Override
-	public List<Employee> getEmployees() {
+	public Optional<List<Employee>> getEmployees() {
 		// TODO Auto-generated method stub
 		return employeeRepository.getEmployees();
 	}
