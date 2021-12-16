@@ -1,15 +1,23 @@
 package com.socgen.emplmngt.repository.impl;
 
+
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 import com.socgen.emplmngt.dto.Employee;
 import com.socgen.emplmngt.repository.EmployeeRepository;
 
 public class EmployeeRepositoryImpl implements EmployeeRepository {
 
-	private ArrayList<Employee> arrayList = new ArrayList<>();
-	// 10
+	private Set<Employee> employees = new TreeSet<>();
+	// 16
+	// new HashSet(Collection)
+	// new HashSet(size, load factor)
+	//                   maps
 
 	// singleton DP
 	private static EmployeeRepository employeeRepository;
@@ -31,7 +39,7 @@ public class EmployeeRepositoryImpl implements EmployeeRepository {
 	public String addEmployee(Employee employee) {
 		// TODO Auto-generated method stub
 
-		boolean result = arrayList.add(employee);
+		boolean result = employees.add(employee);
 
 		if (result)
 			return "successs";
@@ -51,7 +59,7 @@ public class EmployeeRepositoryImpl implements EmployeeRepository {
 
 		if (employee != null) {
 			
-			arrayList.remove(employee);
+			employees.remove(employee);
 			return "success";
 
 		} else
@@ -64,10 +72,10 @@ public class EmployeeRepositoryImpl implements EmployeeRepository {
 		// TODO Auto-generated method stub
 
 		// to find the specific id ===> we need to retrieve the employee object ===>
-		// available in arraylist
-		// do we need to traverse the arraylist? ==> yes
+		// available in employees
+		// do we need to traverse the employees? ==> yes
 
-		for (Employee employee : arrayList) {
+		for (Employee employee : employees) {
 
 			if (id.equals(employee.getEmpId())) {
 				return employee;
@@ -81,7 +89,8 @@ public class EmployeeRepositoryImpl implements EmployeeRepository {
 	@Override
 	public List<Employee> getEmployees() {
 		// TODO Auto-generated method stub
-		return arrayList;
+		return new ArrayList<>(employees);
+		// set to list
 	}
 
 }

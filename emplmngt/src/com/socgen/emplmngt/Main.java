@@ -1,6 +1,7 @@
 package com.socgen.emplmngt;
 
 import java.util.List;
+import java.util.TreeSet;
 
 import com.socgen.emplmngt.dto.Employee;
 import com.socgen.emplmngt.service.EmployeeService;
@@ -11,41 +12,28 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("hello from abhi");
+		Employee employee = new Employee("05", "abhi", "chivate", "pune", 100.0f);
+		Employee employee2 = new Employee("02", "abhi", "chivate", "pune", 100.0f);
+//		
+		System.out.println(employee.hashCode());
+		System.out.println(employee2.hashCode());
+		System.out.println(employee.equals(employee)); // false
+//		
+		EmployeeService employeeService = EmployeeServiceImpl.getInstance();
+		employeeService.addEmployee(employee);
+		employeeService.addEmployee(employee2);
+//		
+	System.out.println(employeeService.getEmployees());
 		
-		// need to confirm the single object 
-		
-		EmployeeService employeeService  = EmployeeServiceImpl.getInstance();
-		System.out.println(employeeService);
-		
-		Employee employee = new Employee("ab001", "abhi", "chivate", "pune", 100.0f);
-		
-		employee.
-		String result  =employeeService.addEmployee(employee);
- employee = new Employee("ab003", "abhi", "chivate", "pune", 100.0f);
-		
-		
-		 result  =employeeService.addEmployee(employee);
- employee = new Employee("ab002", "abhi", "chivate", "pune", 100.0f);
-		
-		
-		 result  =employeeService.addEmployee(employee);
-		
-		System.out.println(result);
-		
-		Employee employee2 = employeeService.getEmployeeById("ab001");
-		
-		System.out.println(employee2);
-
-		
-		
-		
-		result = employeeService.deleteEmployee("ab003");
-List<Employee> list = employeeService.getEmployees();
-		
-		for (Employee employee3 : list) {
-			System.out.println(employee3);
-		}
+//		TreeSet<Integer> treeSet = new TreeSet<>();
+//		treeSet.add(10);
+//		treeSet.add(200);
+//		treeSet.add(10);
+//		treeSet.add(400);
+//		treeSet.add(4);
+//		
+//		
+//		System.out.println(treeSet);
 	}
 
 }
