@@ -27,41 +27,7 @@ public class Main {
 		employeeService.addEmployee(employee2);
 		employeeService.addEmployee(employee3);
 		
-		Optional<Employee> optional = employeeService.getEmployeeById("07");
 		
-		if(optional.isPresent()) {
-			System.out.println("Object present");
-			System.out.println(optional.get());
-		}
-		else {
-			System.out.println("not present");
-		}
-		
-		Optional<List<Employee>> optional2 = employeeService.getEmployees();
-		
-		if(optional2.isPresent()) {
-			
-			List<Employee> employees = optional2.get();
-			
-			if(employees.isEmpty()) {
-				System.out.println("rcvd empty list");
-			}
-			else {
-				System.out.println(employees);
-			}
-		}
-		else {
-			System.out.println("there is no list");
-		}
-//		TreeSet<Integer> treeSet = new TreeSet<>();
-//		treeSet.add(10);
-//		treeSet.add(200);
-//		treeSet.add(10);
-//		treeSet.add(400);
-//		treeSet.add(4);
-//		
-//		
-//		System.out.println(treeSet);
 	}
 
 }
