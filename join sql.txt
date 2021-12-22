@@ -1,0 +1,55 @@
+1. DISPLAY EMPLOYEE DETAILS ALONG WITH DEPT DETAILS.
+EMPLOYEE TBL:
+DEPT TBL : 
+COMBINELY RETRIEVE THE DATA FROM 2 TABLES. ===> join ==> to retreive the data from min. 2 tables.
+we have to write joining conditions : no of tables -1
+(joining condition is based on PK and FK relationship).
+
+select * from employee , dept
+m : no of rows from employee  : select count(*) from employee : 5
+n : no of rows from dept 	select count(*) from dept 5
+total rows : M X N  : 25  ===> cartesian product
+
+Syntax : 
+
+select * from tab1 t1 , tab2 t2 , ..... N 
+where t1.pk = t2.fk ... N of conditions based on the no of tables.
+
+Ist Form :select * from employee e , department d where e.deptid=d.depthead; == preferred
+2nd Form : select * from employee e join department d on e.deptid=d.depthead; == Ansi style SQL
+
+
+1. empproject client project employee table.
+
+select * from employee e, empproject ep, client c , project p 
+where e.empid = ep.empid and c.clientid = ep.clientid and p.projectid=ep.projectid
+ep.endyear=2015
+
+
+
+
+
+
+
+
+
+Types of Join:
+1. simple join/ equi join /inner join (will not consider the null based values from FK column)
+
+2. outer join :  to get the null(PK FK relation based columns) based records during the join work
+
+a. left outer join : it will retrieve all the records from leftside table irrespective of 
+null values
+
+select * from deptartment d left outer join employee e on d.depthead = e.empid
+
+b. right outer join :  it will retrieve all the records from right side table irrespective of 
+null values
+
+
+3. natural join : it should consider the condition by itself no need to write the joining condition.
+
+select * from empproject natural join client;
+4. cross join
+
+select * from employee , client;

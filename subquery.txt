@@ -1,0 +1,61 @@
+Subquery : query inside the query .
+
+execution wise : 1st inner query / subquery will be executed 1st.
+
+Types of subquery:
+1. single row subquery: only 1 : = , <>, >, <, >=, <= or any aggregate function like avg, count,
+sum etc. 
+
+2. multi row subquery : will return multiple in , any , all 
+
+
+
+1. select the department name of the company which is assigned to the employee whose employee id is 
+greater than 103.
+a. select deptname from department 
+b. select dept from employee where empid>103
+
+2. select the name of the employee who is dept head of hr.
+a. select empname from employee 
+b. select depthead from dept where deptname='hr'
+
+select empname from employee where empid =(select depthead from dept where deptname='hr')
+
+3. select the name of the employee who is working under Abhishek
+
+Select the name of the employee head who is permanent.
+
+a. select empid from salary where ispermanent='yes'
+b. select empname from employee
+select empname from employee where empid in(select empid from salary where ispermanent='yes')
+
+Select the name and email of the Dept Head who is not Permanent.
+a. select empname , email from employee
+b. select empid from salary where isparmanent='NO'
+
+select empname email  from employee where empid in 
+(select empid from salary where isparmanent='NO')
+
+Select the employee whose department off is monday
+
+a. select * from employee
+b. select depid from dept where dept_off='monday'
+
+ select the indian clinets details.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

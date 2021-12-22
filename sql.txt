@@ -1,0 +1,80 @@
+1. select the details of the all employees.
+
+select * from employee;
+
+2. retrieve the details of Isha from employee table.
+select * from employee where empName='Isha';
+
+3. retrieve the details of employees where department id is E-104
+select * from employee where deptid='E-104'
+
+4. count the total number of employees who are working in dept E-104
+
+// do we need a single row o/p
+// i/p : multiple rows
+// multi row functions/ aggregate function
+
+select count(deptid) from employee where deptid='E-104';
+
+5. total count:
+select count(deptid) from employee
+
+6. select the details of employee whose emailid is in gmail.
+select * from employee where emailid like "%@gmail.com"
+
+7. empls who are working in dept E-102 or dept E-104
+select * from employee where deptid='E-104' or deptid='E-102'
+
+select * from employee where deptid in ('E-104','E-102')
+
+8. what is the deptname of deptid E-102
+select deptname from dept where deptid ='E-102'
+
+9. list the name of the employees whose name ends with a.
+
+10. list out the unique dept ids from employee table.
+
+select distinct deptid from employee;
+
+11. count the employees from each dept . emp count dept wise
+before taking the count ==> we need to sagregate the empls dept wise/ 
+group them based on the deptid 
+
+select deptid , count(empid) from employee group by deptid
+
+12. list the number of dept of employees in each project.
+(use empproject table)
+
+select * from empproject
+
+
+select count(empid) , projectid from empproject group by projectid
+
+13. how many project stated in year 2010
+
+
+14. how many project started and finished in the same year.
+where startyear = endyear
+
+15. select the name of the employee whose name's 3rd char. is 'h'
+
+
+select * from employee where empname like '__h%'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
