@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-22T04:00:32.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="4Md67YZmMEPSuURmgqDI" version="15.9.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-23T03:55:28.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Z903HdEsMNYFuEV1ZJz_" version="15.9.6" type="github" pages="9">
   <diagram id="44bqtlpU4LyTsHwCAsyh" name="basic execution">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -766,6 +766,53 @@
         </mxCell>
         <mxCell id="n2r9k1VI2oEYL01bJSeF-0" value="we will get the data based on the column name &amp;amp; we need to collate the individual data which we received from the columns into an employee object .&lt;br&gt;then we will add it into the Collection to share the final copy to caller." style="whiteSpace=wrap;html=1;fontSize=17;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;" vertex="1" parent="F_Hu7HtsWkB-A9vrzX-8-1">
           <mxGeometry x="-1210" y="1314.23" width="325" height="177.18" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AStIMr2_3_giiZExEjQ4" name="joining ">
+    <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="Kni1rEeGW2hZLoxx1GkC-0" />
+        <mxCell id="Kni1rEeGW2hZLoxx1GkC-1" parent="Kni1rEeGW2hZLoxx1GkC-0" />
+        <mxCell id="Kni1rEeGW2hZLoxx1GkC-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Kni1rEeGW2hZLoxx1GkC-1" source="Kni1rEeGW2hZLoxx1GkC-2" target="Kni1rEeGW2hZLoxx1GkC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kni1rEeGW2hZLoxx1GkC-2" value="Table 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Kni1rEeGW2hZLoxx1GkC-1">
+          <mxGeometry x="180" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kni1rEeGW2hZLoxx1GkC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Kni1rEeGW2hZLoxx1GkC-1" source="Kni1rEeGW2hZLoxx1GkC-3" target="Kni1rEeGW2hZLoxx1GkC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kni1rEeGW2hZLoxx1GkC-3" value="Table 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Kni1rEeGW2hZLoxx1GkC-1">
+          <mxGeometry x="490" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kni1rEeGW2hZLoxx1GkC-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Kni1rEeGW2hZLoxx1GkC-1" source="Kni1rEeGW2hZLoxx1GkC-4" target="Kni1rEeGW2hZLoxx1GkC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kni1rEeGW2hZLoxx1GkC-4" value="Cartesianproduct" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="Kni1rEeGW2hZLoxx1GkC-1">
+          <mxGeometry x="340" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kni1rEeGW2hZLoxx1GkC-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Kni1rEeGW2hZLoxx1GkC-1" source="Kni1rEeGW2hZLoxx1GkC-7" target="Kni1rEeGW2hZLoxx1GkC-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kni1rEeGW2hZLoxx1GkC-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Kni1rEeGW2hZLoxx1GkC-1" source="Kni1rEeGW2hZLoxx1GkC-7" target="Kni1rEeGW2hZLoxx1GkC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kni1rEeGW2hZLoxx1GkC-7" value="then it will start filtering the data based on joining condition" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Kni1rEeGW2hZLoxx1GkC-1">
+          <mxGeometry x="340" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kni1rEeGW2hZLoxx1GkC-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Kni1rEeGW2hZLoxx1GkC-1" source="Kni1rEeGW2hZLoxx1GkC-9" target="Kni1rEeGW2hZLoxx1GkC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kni1rEeGW2hZLoxx1GkC-9" value="Final join based output" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="Kni1rEeGW2hZLoxx1GkC-1">
+          <mxGeometry x="340" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kni1rEeGW2hZLoxx1GkC-11" value="it will skip null value records from the condition." style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="Kni1rEeGW2hZLoxx1GkC-1">
+          <mxGeometry x="540" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kni1rEeGW2hZLoxx1GkC-13" value="will not have any records with null value from PK or FK column." style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="Kni1rEeGW2hZLoxx1GkC-1">
+          <mxGeometry x="570" y="585" width="180" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
