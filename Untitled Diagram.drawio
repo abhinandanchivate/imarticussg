@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T06:00:42.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="lkMjCRxA9t3l3O2wLP6I" version="15.9.6" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-12-23T12:00:34.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_kvvLnxY8HRbdHAmLcrU" version="15.9.6" type="github" pages="11">
   <diagram id="44bqtlpU4LyTsHwCAsyh" name="basic execution">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -818,7 +818,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6v4liSjyZfk46AzDF6BF" name="Spring">
-    <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="3rz0ntWxCB894csN1fXL-0" />
         <mxCell id="3rz0ntWxCB894csN1fXL-1" parent="3rz0ntWxCB894csN1fXL-0" />
@@ -836,6 +836,74 @@
         </mxCell>
         <mxCell id="3rz0ntWxCB894csN1fXL-6" value="Dependancy Injection :&amp;nbsp;&lt;br&gt;DI is a pattern we can use to implement the IoC where the control being inverted is setting the object&#39;s dependancies..&lt;br&gt;&lt;br&gt;connecting object with other objects or injecting objects into other objects&amp;nbsp; is done by an assembler rather than by the objects themselves.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
           <mxGeometry x="190" y="1680" width="460" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-7" value="Spring IoC container:&amp;nbsp;&lt;br&gt;An IoC container is a common characteristic of the frameworks that implemnt the IoC.&lt;br&gt;&lt;br&gt;to maintain the object life cycle ( creating the object till the destroying the object).&lt;br&gt;these created objects are referred as beans in spring.&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
+          <mxGeometry x="190" y="2080" width="500" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="3rz0ntWxCB894csN1fXL-1" source="3rz0ntWxCB894csN1fXL-8" target="3rz0ntWxCB894csN1fXL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="3rz0ntWxCB894csN1fXL-1" source="3rz0ntWxCB894csN1fXL-8" target="3rz0ntWxCB894csN1fXL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-8" value="IoC Containers" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
+          <mxGeometry x="340" y="2450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-9" value="BeanFactory Container" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
+          <mxGeometry x="150" y="2570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-11" value="ApplicationContext&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
+          <mxGeometry x="560" y="2570" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-13" value="will provide the objects on deamand." style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
+          <mxGeometry x="70" y="2690" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-14" value="proactively ready with some objects @ the time of starting the application as reqd." style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
+          <mxGeometry x="540" y="2690" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-15" value="1. Setter based&lt;br&gt;2. constructor based&lt;br&gt;3. field based" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
+          <mxGeometry x="60" y="2940" width="240" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="3rz0ntWxCB894csN1fXL-1" source="3rz0ntWxCB894csN1fXL-16" target="3rz0ntWxCB894csN1fXL-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="3rz0ntWxCB894csN1fXL-1" source="3rz0ntWxCB894csN1fXL-16" target="3rz0ntWxCB894csN1fXL-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-16" value="Setter based injection :&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
+          <mxGeometry x="80" y="3210" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="3rz0ntWxCB894csN1fXL-1" source="3rz0ntWxCB894csN1fXL-17" target="3rz0ntWxCB894csN1fXL-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-17" value="xml based" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
+          <mxGeometry x="-110" y="3340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="3rz0ntWxCB894csN1fXL-1" source="3rz0ntWxCB894csN1fXL-19" target="3rz0ntWxCB894csN1fXL-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-19" value="annotation based" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
+          <mxGeometry x="440" y="3340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-21" value="class Store {&lt;br&gt;private String item;&lt;br&gt;// setter method item&lt;br&gt;// getter method for item&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
+          <mxGeometry x="-450" y="3330" width="190" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-22" value="&amp;lt;bean id=&quot;name for identification&quot; class=&quot;packagename with classname&quot;&amp;gt;&lt;br&gt;&amp;lt;property name=&quot;name of field&quot; value=&quot;&quot;/&amp;gt;&lt;br&gt;&amp;lt;/bean&amp;gt;&lt;br&gt;id: reference name for ur object&lt;br&gt;class : we should provide the class whose object we want to create it.&lt;br&gt;&lt;br&gt;property element : setter stuff." style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
+          <mxGeometry x="-212.5" y="3490" width="325" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-24" value="@Bean&lt;br&gt;public Store store(){&lt;br&gt;&lt;br&gt;Store store = new Store();&lt;br&gt;// object is created&lt;br&gt;store.setItem(&quot;item1&quot;);&lt;br&gt;return store;&lt;br&gt;}&lt;br&gt;" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
+          <mxGeometry x="365" y="3500" width="270" height="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GHNY1bK9U-kkuR6ZvMxm" name="maven">
+    <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="YKGOesMDeViuZb6FF67c-0" />
+        <mxCell id="YKGOesMDeViuZb6FF67c-1" parent="YKGOesMDeViuZb6FF67c-0" />
+        <mxCell id="YKGOesMDeViuZb6FF67c-2" value="Maven : pom : project object modeling.&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="YKGOesMDeViuZb6FF67c-1">
+          <mxGeometry x="110" y="100" width="380" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
