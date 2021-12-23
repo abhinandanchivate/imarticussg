@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T03:55:28.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Z903HdEsMNYFuEV1ZJz_" version="15.9.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-12-23T06:00:42.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="lkMjCRxA9t3l3O2wLP6I" version="15.9.6" type="github" pages="10">
   <diagram id="44bqtlpU4LyTsHwCAsyh" name="basic execution">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -813,6 +813,29 @@
         </mxCell>
         <mxCell id="Kni1rEeGW2hZLoxx1GkC-13" value="will not have any records with null value from PK or FK column." style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="Kni1rEeGW2hZLoxx1GkC-1">
           <mxGeometry x="570" y="585" width="180" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6v4liSjyZfk46AzDF6BF" name="Spring">
+    <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="3rz0ntWxCB894csN1fXL-0" />
+        <mxCell id="3rz0ntWxCB894csN1fXL-1" parent="3rz0ntWxCB894csN1fXL-0" />
+        <mxCell id="3rz0ntWxCB894csN1fXL-2" value="Framework Vs Library&lt;br&gt;&lt;br&gt;library : will hold the functionalities.&lt;br&gt;&lt;br&gt;Framework :&amp;nbsp; are the prefabricated software building blocks &amp;amp; tested.&lt;br&gt;they have readily available functionalities&lt;br&gt;They components are already tested&lt;br&gt;open for any customization." style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
+          <mxGeometry x="170" y="40" width="340" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-3" value="Spring :&amp;nbsp; it is an open source application framework that provides infrastructure support for developing java based application.&lt;br&gt;&lt;br&gt;&lt;b&gt;don&#39;t call me I will call u.&lt;br&gt;&lt;/b&gt;&lt;br&gt;Inversion of Control :&amp;nbsp;&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
+          <mxGeometry x="190" y="480" width="510" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-4" value="IoC : Ioc is a principle in soft. engg. which transfers the control of objects or portion of program to a container or framework.&lt;br&gt;&lt;br&gt;This approach mostly we will use it in case of oop based programming.&lt;br&gt;&lt;br&gt;In contrast with traditional programming , in which our custom code makes calls to the lib.&lt;br&gt;Ioc enables a framework to take control of the flow of a program and make calls to our custom code.&lt;br&gt;&lt;br&gt;any provision to do the customization in the framework implementation : yes : we can extend / implement a particular class/interface .&lt;br&gt;max times this customization will happen through interface since its a plug and play kind of work.&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
+          <mxGeometry x="210" y="810" width="450" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-5" value="The advantages of this archi. :&amp;nbsp;&lt;br&gt;1. decoupling the execution of the task from its impl.&lt;br&gt;2. making it easier to switch between diff impl.&lt;br&gt;3. greater modularity of a program&lt;br&gt;4. it will help us to do the testing of an individual component." style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
+          <mxGeometry x="190" y="1300" width="470" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3rz0ntWxCB894csN1fXL-6" value="Dependancy Injection :&amp;nbsp;&lt;br&gt;DI is a pattern we can use to implement the IoC where the control being inverted is setting the object&#39;s dependancies..&lt;br&gt;&lt;br&gt;connecting object with other objects or injecting objects into other objects&amp;nbsp; is done by an assembler rather than by the objects themselves.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="3rz0ntWxCB894csN1fXL-1">
+          <mxGeometry x="190" y="1680" width="460" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
