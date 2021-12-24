@@ -1,5 +1,6 @@
 package com.socgen.emplmngt;
 
+import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
 import java.util.TreeSet;
@@ -23,9 +24,31 @@ public class Main {
 //		System.out.println(employee.equals(employee)); // false
 ////		
 		EmployeeService employeeService = EmployeeServiceImpl.getInstance();
-		employeeService.addEmployee(employee);
-		employeeService.addEmployee(employee2);
-		employeeService.addEmployee(employee3);
+//		employeeService.addEmployee(employee);
+//		employeeService.addEmployee(employee2);
+//		employeeService.addEmployee(employee3);
+		
+//		Optional<List<Employee>> optional = employeeService.getEmployees();
+//		
+//		if(optional.isPresent()) {
+//			for (Employee emp : optional.get()) {
+//				
+//				System.out.println(emp);
+//				
+//			}
+//			
+//			optional.get().forEach(emp->System.out.println(emp));
+//		}
+		
+		
+		Optional<Employee> optional = employeeService.getEmployeeById("09");
+		
+		if(optional.isPresent()) {
+			
+			System.out.println(optional.get());
+		}
+		else
+			System.out.println("not present / available");
 		
 		
 	}

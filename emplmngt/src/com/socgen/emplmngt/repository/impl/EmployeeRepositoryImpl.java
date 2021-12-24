@@ -97,19 +97,92 @@ public class EmployeeRepositoryImpl implements EmployeeRepository {
 	@Override
 	public String deleteEmployee(String id) {
 		// TODO Auto-generated method stub
-		return null;
+		String deleteStatement = "delete from employee where empId=?";
+		Connection connection =  null;
+		PreparedStatement preparedStatement = null;
+		try {
+			connection = DBUtils.getConnection();
+			preparedStatement = connection.prepareStatement(deleteStatement);
+			preparedStatement.setString(1, id);
+			
+			int result = preparedStatement.executeUpdate();
+			
+			if(result>0) {
+				return "success";
+			}
+		//	else return "fail";
+			
+		} catch (ClassNotFoundException | IOException | SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally {
+			try {
+				DBUtils.closeConnection(connection);
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		return "fail";
+		
+		
+		
+		
 	}
 
 	@Override
 	public Optional<Employee> getEmployeeById(String id) {
 		// TODO Auto-generated method stub
-		return null;
+		
+		String query = "select * from employee where empId=?";
+		Connection connection =  null;
+		PreparedStatement preparedStatement = null;
+		ResultSet resultset = null;
+		
+		
+		try {
+			connection = DBUtils.getConnection();
+			
+			preparedStatement = connection.prepareStatement(query);
+			preparedStatement.setString(1, id);
+			
+			resultset = preparedStatement.executeQuery();
+			
+			if(resultset.next()) {
+				
+				Employee employee = new Employee();
+				employee.setEmpId(resultset.getString("empId"));
+				employee.setEmpFirstName(resultset.getString("empFirstName"));
+				employee.setEmpLastName(resultset.getString("empLastName"));
+				employee.setAddress(resultset.getString("address"));
+				employee.setEmpSalary(resultset.getFloat("empSalary"));
+			
+				return Optional.of(employee);
+			}
+			
+		
+		} catch (ClassNotFoundException | IOException | SQLException e) { 
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			
+		}
+		finally {
+			try {
+				DBUtils.closeConnection(connection);
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		return Optional.empty();
+
 	}
 
 	@Override
 	public Optional<List<Employee>> getEmployees() {
 		// TODO Auto-generated method stub
-		
+		List<Employee> list = new ArrayList<>();
 		Connection connection =  null;
 		PreparedStatement preparedStatement = null;
 		ResultSet resultset = null;
@@ -123,18 +196,35 @@ public class EmployeeRepositoryImpl implements EmployeeRepository {
 			resultset = preparedStatement.executeQuery();
 			
 			while(resultset.next()) {
-				// String / primitive values ====> Object
-				// Object we need to add it into a collection.
+				
+				Employee employee = new Employee();
+				employee.setEmpId(resultset.getString("empId"));
+				employee.setEmpFirstName(resultset.getString("empFirstName"));
+				employee.setEmpLastName(resultset.getString("empLastName"));
+				employee.setAddress(resultset.getString("address"));
+				employee.setEmpSalary(resultset.getFloat("empSalary"));
+			
+				list.add(employee);
 			}
 			
-			
-			
+		
 		} catch (ClassNotFoundException | IOException | SQLException e) { 
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			
 		}
+		finally {
+			try {
+				DBUtils.closeConnection(connection);
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		return Optional.ofNullable(list);
+		// empty & of 
 		
-		return null;
+		
 	}
 
 	
