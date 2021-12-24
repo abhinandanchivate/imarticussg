@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T12:00:34.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_kvvLnxY8HRbdHAmLcrU" version="15.9.6" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-12-24T08:15:23.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="QszHGR7aolBPew10r9jg" version="15.9.6" type="github" pages="12">
   <diagram id="44bqtlpU4LyTsHwCAsyh" name="basic execution">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -904,6 +904,50 @@
         <mxCell id="YKGOesMDeViuZb6FF67c-1" parent="YKGOesMDeViuZb6FF67c-0" />
         <mxCell id="YKGOesMDeViuZb6FF67c-2" value="Maven : pom : project object modeling.&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="YKGOesMDeViuZb6FF67c-1">
           <mxGeometry x="110" y="100" width="380" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="f_DoaA2IlbH1KN0eafxN" name="spring object life cycle">
+    <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="dk222DkAPau0IRD8HiN_-0" />
+        <mxCell id="dk222DkAPau0IRD8HiN_-1" parent="dk222DkAPau0IRD8HiN_-0" />
+        <mxCell id="dk222DkAPau0IRD8HiN_-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="dk222DkAPau0IRD8HiN_-1" source="dk222DkAPau0IRD8HiN_-2" target="dk222DkAPau0IRD8HiN_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dk222DkAPau0IRD8HiN_-2" value="Container Started" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="dk222DkAPau0IRD8HiN_-1">
+          <mxGeometry x="130" y="110" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dk222DkAPau0IRD8HiN_-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="dk222DkAPau0IRD8HiN_-1" source="dk222DkAPau0IRD8HiN_-3" target="dk222DkAPau0IRD8HiN_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dk222DkAPau0IRD8HiN_-3" value="Bean Instantiated" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="dk222DkAPau0IRD8HiN_-1">
+          <mxGeometry x="435" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dk222DkAPau0IRD8HiN_-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="dk222DkAPau0IRD8HiN_-1" source="dk222DkAPau0IRD8HiN_-5" target="dk222DkAPau0IRD8HiN_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dk222DkAPau0IRD8HiN_-5" value="Dependencies Injected" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="dk222DkAPau0IRD8HiN_-1">
+          <mxGeometry x="635" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dk222DkAPau0IRD8HiN_-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="dk222DkAPau0IRD8HiN_-1" source="dk222DkAPau0IRD8HiN_-7" target="dk222DkAPau0IRD8HiN_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dk222DkAPau0IRD8HiN_-7" value="Custom init() method" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="dk222DkAPau0IRD8HiN_-1">
+          <mxGeometry x="635" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dk222DkAPau0IRD8HiN_-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="dk222DkAPau0IRD8HiN_-1" source="dk222DkAPau0IRD8HiN_-9" target="dk222DkAPau0IRD8HiN_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dk222DkAPau0IRD8HiN_-9" value="Custom utility method" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="dk222DkAPau0IRD8HiN_-1">
+          <mxGeometry x="435" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dk222DkAPau0IRD8HiN_-11" value="Custom destroy method()" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="dk222DkAPau0IRD8HiN_-1">
+          <mxGeometry x="235" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dk222DkAPau0IRD8HiN_-13" value="it will read the config class &amp;amp; will read all the annotations from the specified base package&lt;br&gt;2. it will start the process of creating the objects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="dk222DkAPau0IRD8HiN_-1">
+          <mxGeometry x="200" y="10" width="390" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
