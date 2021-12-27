@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-24T18:08:48.178Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="7SvDJ2Jq0QZnqy-4-W3q" version="15.9.6" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-12-27T10:06:33.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="azBTFq5DuHCeIr2_7PRd" version="16.1.0" type="github" pages="13">
   <diagram id="44bqtlpU4LyTsHwCAsyh" name="basic execution">
-    <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -948,6 +948,26 @@
         </mxCell>
         <mxCell id="dk222DkAPau0IRD8HiN_-13" value="it will read the config class &amp;amp; will read all the annotations from the specified base package&lt;br&gt;2. it will start the process of creating the objects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="dk222DkAPau0IRD8HiN_-1">
           <mxGeometry x="200" y="10" width="390" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PpmDseTnEl5n89P7W5Qg" name="spring boot">
+    <mxGraphModel dx="782" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="yZlEUs8Ia0AHM58ZPL15-0" />
+        <mxCell id="yZlEUs8Ia0AHM58ZPL15-1" parent="yZlEUs8Ia0AHM58ZPL15-0" />
+        <mxCell id="yZlEUs8Ia0AHM58ZPL15-2" value="Spring Boot." style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="yZlEUs8Ia0AHM58ZPL15-1">
+          <mxGeometry x="150" y="80" width="350" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="yZlEUs8Ia0AHM58ZPL15-3" value="1. ORM : object relational mapping:&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="yZlEUs8Ia0AHM58ZPL15-1">
+          <mxGeometry x="90" y="390" width="430" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="yZlEUs8Ia0AHM58ZPL15-4" value="Class&amp;nbsp;&lt;br&gt;(Fields)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="yZlEUs8Ia0AHM58ZPL15-1">
+          <mxGeometry x="70" y="620" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yZlEUs8Ia0AHM58ZPL15-5" value="Table(columns)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="yZlEUs8Ia0AHM58ZPL15-1">
+          <mxGeometry x="245" y="620" width="120" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
