@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T10:06:33.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="azBTFq5DuHCeIr2_7PRd" version="16.1.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2021-12-28T05:08:53.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="cSV7jF5nFnFvpbEF0W-g" version="16.1.0" type="github" pages="14">
   <diagram id="44bqtlpU4LyTsHwCAsyh" name="basic execution">
     <mxGraphModel dx="782" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -953,21 +953,202 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PpmDseTnEl5n89P7W5Qg" name="spring boot">
-    <mxGraphModel dx="782" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="yZlEUs8Ia0AHM58ZPL15-0" />
         <mxCell id="yZlEUs8Ia0AHM58ZPL15-1" parent="yZlEUs8Ia0AHM58ZPL15-0" />
-        <mxCell id="yZlEUs8Ia0AHM58ZPL15-2" value="Spring Boot." style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="yZlEUs8Ia0AHM58ZPL15-1">
+        <mxCell id="yZlEUs8Ia0AHM58ZPL15-2" value="Spring Boot." style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="yZlEUs8Ia0AHM58ZPL15-1" vertex="1">
           <mxGeometry x="150" y="80" width="350" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="yZlEUs8Ia0AHM58ZPL15-3" value="1. ORM : object relational mapping:&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="yZlEUs8Ia0AHM58ZPL15-1">
+        <mxCell id="yZlEUs8Ia0AHM58ZPL15-3" value="1. ORM : object relational mapping:&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="yZlEUs8Ia0AHM58ZPL15-1" vertex="1">
           <mxGeometry x="90" y="390" width="430" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="yZlEUs8Ia0AHM58ZPL15-4" value="Class&amp;nbsp;&lt;br&gt;(Fields)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="yZlEUs8Ia0AHM58ZPL15-1">
+        <mxCell id="yZlEUs8Ia0AHM58ZPL15-4" value="Class&amp;nbsp;&lt;br&gt;(Fields)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="yZlEUs8Ia0AHM58ZPL15-1" vertex="1">
           <mxGeometry x="70" y="620" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="yZlEUs8Ia0AHM58ZPL15-5" value="Table(columns)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="yZlEUs8Ia0AHM58ZPL15-1">
+        <mxCell id="yZlEUs8Ia0AHM58ZPL15-5" value="Table(columns)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="yZlEUs8Ia0AHM58ZPL15-1" vertex="1">
           <mxGeometry x="245" y="620" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uNZug7dqK6KTnsaMj-Ku-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yZlEUs8Ia0AHM58ZPL15-1" source="uNZug7dqK6KTnsaMj-Ku-0" target="uNZug7dqK6KTnsaMj-Ku-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uNZug7dqK6KTnsaMj-Ku-0" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yZlEUs8Ia0AHM58ZPL15-1">
+          <mxGeometry x="90" y="880" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uNZug7dqK6KTnsaMj-Ku-2" value="SpringBoot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yZlEUs8Ia0AHM58ZPL15-1">
+          <mxGeometry x="140" y="930" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uNZug7dqK6KTnsaMj-Ku-3" value="Reading application.properties file&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yZlEUs8Ia0AHM58ZPL15-1">
+          <mxGeometry x="250" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uNZug7dqK6KTnsaMj-Ku-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yZlEUs8Ia0AHM58ZPL15-1" source="uNZug7dqK6KTnsaMj-Ku-4" target="uNZug7dqK6KTnsaMj-Ku-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uNZug7dqK6KTnsaMj-Ku-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yZlEUs8Ia0AHM58ZPL15-1" source="uNZug7dqK6KTnsaMj-Ku-4" target="uNZug7dqK6KTnsaMj-Ku-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uNZug7dqK6KTnsaMj-Ku-4" value="it will create ur service/repository objects&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="yZlEUs8Ia0AHM58ZPL15-1">
+          <mxGeometry x="190" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uNZug7dqK6KTnsaMj-Ku-6" value="it will read ur properties file , it will help us to find all the objects based on the loc of @SpringbootApplication annotation.(since this annotation is marked on the main method so it is considered that it will be placed in base package." style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yZlEUs8Ia0AHM58ZPL15-1">
+          <mxGeometry x="150" y="1250" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uNZug7dqK6KTnsaMj-Ku-8" value="3rd party integration JPA&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="yZlEUs8Ia0AHM58ZPL15-1">
+          <mxGeometry x="390" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="oQGgJvMsY66lymNDTGn4" name="Page-14">
+    <mxGraphModel dx="2128" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-0" />
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-1" parent="cvdTcNRISnM-LiRdHi0K-0" />
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-35" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="200" y="700" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-2" target="cvdTcNRISnM-LiRdHi0K-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-2" value="Host Application" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="80" y="60" width="120" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-3" target="cvdTcNRISnM-LiRdHi0K-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-3" value="ORM Layer" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="280" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-7" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="460" y="165" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-9" value="DATA SOURCE &amp;amp; SOME JPA SPEC (PROPERTIES)&lt;br&gt;-- application.properties" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="40" y="390" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.414;entryY=1.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-10" target="cvdTcNRISnM-LiRdHi0K-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-10" target="cvdTcNRISnM-LiRdHi0K-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-10" target="cvdTcNRISnM-LiRdHi0K-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-10" value="spring boot data jpa" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="60" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-12" target="cvdTcNRISnM-LiRdHi0K-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-12" target="cvdTcNRISnM-LiRdHi0K-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-12" target="cvdTcNRISnM-LiRdHi0K-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-12" target="cvdTcNRISnM-LiRdHi0K-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-12" value="Entity Manager" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="260" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-14" value="classes from dto package(entity classes since they are marked @Entity)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="260" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-16" target="cvdTcNRISnM-LiRdHi0K-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-16" value="Datasource" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="460" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-18" value="Connection pool (here we will have multiple connections)" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="660" y="715" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-20" target="cvdTcNRISnM-LiRdHi0K-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-20" value="Repository Impl" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="60" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-22" value="Your Repository interface declaration" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="60" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-24" value="Persistent Objects" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="260" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-26" target="cvdTcNRISnM-LiRdHi0K-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-26" value="Object life cycle from JPA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="360" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-27" target="cvdTcNRISnM-LiRdHi0K-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-27" value="Transient" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="560" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-29" target="cvdTcNRISnM-LiRdHi0K-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-29" value="Persistent" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="760" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-31" value="Detatched" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="960" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-33" value="JDBC / JTA" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="400" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-36" value="EntityManagerFactory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="210" y="785" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-39" target="cvdTcNRISnM-LiRdHi0K-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-39" target="cvdTcNRISnM-LiRdHi0K-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="1413" />
+              <mxPoint x="50" y="1657" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-39" target="cvdTcNRISnM-LiRdHi0K-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="1413" />
+              <mxPoint x="50" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-39" target="cvdTcNRISnM-LiRdHi0K-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cvdTcNRISnM-LiRdHi0K-1" source="cvdTcNRISnM-LiRdHi0K-39" target="cvdTcNRISnM-LiRdHi0K-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-39" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.java4coding.com/contents/jpa/images/jpa-architecture-2.png;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="80" y="1200" width="840" height="426.47" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-40" value="&lt;span style=&quot;font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify ; background-color: rgb(255 , 255 , 255)&quot;&gt;There should be a java class representing a database table. Such classes are called as Entity classes/ Persistent Classes. Persistence class or an entity class is a POJO (Plain Old Java Object) class, i.e. an ordinary Java class that is annotated with @Entity annotation. Each persistent instance of an entity class - each entity - represents a unique database record. Each variable/field may represent each column of table.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="-150" y="1870" width="530" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-41" value="&lt;span class=&quot;Strong&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-weight: bold ; font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;&lt;span class=&quot;T4&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-family: &amp;#34;courier new&amp;#34; ; font-weight: normal&quot;&gt;EntityManagerFactory&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;T11&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;class is a factory for&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;Strong&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-weight: bold ; font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;&lt;span class=&quot;T4&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-family: &amp;#34;courier new&amp;#34; ; font-weight: normal&quot;&gt;EntityManagers&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;T11&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;.&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;Strong&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-weight: bold ; font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;&lt;span class=&quot;T4&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-family: &amp;#34;courier new&amp;#34; ; font-weight: normal&quot;&gt;EntityManagerFactory&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;T11&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;object represents the JDBC connection pool.&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;T5&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-family: &amp;#34;courier new&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;EntityManagerFactory&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;T11&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;is created by reading persistence.xml and there will be only one object of&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;Strong&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-weight: bold ; font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;&lt;span class=&quot;T4&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-family: &amp;#34;courier new&amp;#34; ; font-weight: normal&quot;&gt;EntityManagerFactory&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;T11&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;which will be immutable and also thread safe&lt;/span&gt;&lt;span class=&quot;Strong&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-weight: bold ; font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;.&lt;/span&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=#ffffff;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="-470" y="1318.23" width="440" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-43" value="&lt;span class=&quot;T11&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;T6&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-family: &amp;#34;courier new&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;EntityManager&lt;/span&gt;&lt;span class=&quot;T11&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;&amp;nbsp;manages the entities. EntityManager manages the complete transactions of entities. EntityManager is used to perform CRUD (Create, Read, Update, Delete) operations on entities. EntityManager provides sophisticated methods to perform CRUD operations.&lt;/span&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=#ffffff;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="-470" y="1590" width="390" height="133.53" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-45" value="&lt;span style=&quot;font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;JPA Persistence Unit defined inside persistence.xml defines a set of all entity classes that are managed by EntityManager instances in an application. This set of entity classes represents the data contained within a single data store. The JAR file or directory whose META-INF directory contains persistence.xml is called the root of the persistence unit. The scope of the persistence unit is determined by the persistence unit’s roo&lt;/span&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=#ffffff;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="-470" y="1100" width="460" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cvdTcNRISnM-LiRdHi0K-48" value="&lt;span class=&quot;T11&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;The&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;t3&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-family: &amp;#34;courier new&amp;#34; ; font-size: 11pt ; text-align: justify&quot;&gt;javax.persistence.Query&lt;/span&gt;&lt;span class=&quot;t6&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-family: &amp;#34;courier new&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;&lt;span class=&quot;T13&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-family: &amp;#34;cambria&amp;#34;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;T11&quot; style=&quot;box-sizing: border-box ; margin: 0px ; font-family: &amp;#34;cambria&amp;#34; ; font-size: 16px ; text-align: justify&quot;&gt;interface is used to issue queries in JPA.&amp;nbsp; Java Persistence Query Language (JPQL)&amp;nbsp;is the query language used in JPA.&amp;nbsp;The syntax of JPQL is almost same as SQL, but it is object-oriented rather than table oriented.&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=#ffffff;" vertex="1" parent="cvdTcNRISnM-LiRdHi0K-1">
+          <mxGeometry x="630" y="1870" width="450" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
